@@ -16,6 +16,8 @@
 		6C6A1DA11EB9BEDC00349792 /* UICollectionViewTestTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6C6A1DA01EB9BEDC00349792 /* UICollectionViewTestTests.m */; };
 		6C6A1DAD1EB9C13100349792 /* CustomCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 6C6A1DAC1EB9C13100349792 /* CustomCollectionViewCell.m */; };
 		6C6A1DB01EB9CE2E00349792 /* JHHeaderFlowLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = 6C6A1DAF1EB9CE2E00349792 /* JHHeaderFlowLayout.m */; };
+		6C8A59361EF1315C0018A26E /* RootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6C8A59351EF1315C0018A26E /* RootViewController.m */; };
+		6C8A59391EF131640018A26E /* ViewController1.m in Sources */ = {isa = PBXBuildFile; fileRef = 6C8A59381EF131640018A26E /* ViewController1.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -46,6 +48,10 @@
 		6C6A1DAC1EB9C13100349792 /* CustomCollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomCollectionViewCell.m; sourceTree = "<group>"; };
 		6C6A1DAE1EB9CE2E00349792 /* JHHeaderFlowLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JHHeaderFlowLayout.h; sourceTree = "<group>"; };
 		6C6A1DAF1EB9CE2E00349792 /* JHHeaderFlowLayout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JHHeaderFlowLayout.m; sourceTree = "<group>"; };
+		6C8A59341EF1315C0018A26E /* RootViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RootViewController.h; sourceTree = "<group>"; };
+		6C8A59351EF1315C0018A26E /* RootViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RootViewController.m; sourceTree = "<group>"; };
+		6C8A59371EF131640018A26E /* ViewController1.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController1.h; sourceTree = "<group>"; };
+		6C8A59381EF131640018A26E /* ViewController1.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController1.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -89,8 +95,12 @@
 			children = (
 				6C6A1D891EB9BEDC00349792 /* AppDelegate.h */,
 				6C6A1D8A1EB9BEDC00349792 /* AppDelegate.m */,
+				6C8A59341EF1315C0018A26E /* RootViewController.h */,
+				6C8A59351EF1315C0018A26E /* RootViewController.m */,
 				6C6A1D8C1EB9BEDC00349792 /* ViewController.h */,
 				6C6A1D8D1EB9BEDC00349792 /* ViewController.m */,
+				6C8A59371EF131640018A26E /* ViewController1.h */,
+				6C8A59381EF131640018A26E /* ViewController1.m */,
 				6C6A1DAB1EB9C13100349792 /* CustomCollectionViewCell.h */,
 				6C6A1DAC1EB9C13100349792 /* CustomCollectionViewCell.m */,
 				6C6A1DAE1EB9CE2E00349792 /* JHHeaderFlowLayout.h */,
@@ -226,7 +236,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				6C6A1D8E1EB9BEDC00349792 /* ViewController.m in Sources */,
+				6C8A59391EF131640018A26E /* ViewController1.m in Sources */,
 				6C6A1D8B1EB9BEDC00349792 /* AppDelegate.m in Sources */,
+				6C8A59361EF1315C0018A26E /* RootViewController.m in Sources */,
 				6C6A1DB01EB9CE2E00349792 /* JHHeaderFlowLayout.m in Sources */,
 				6C6A1D881EB9BEDC00349792 /* main.m in Sources */,
 				6C6A1DAD1EB9C13100349792 /* CustomCollectionViewCell.m in Sources */,
