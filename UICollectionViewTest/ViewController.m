@@ -93,7 +93,7 @@
 #pragma mark -- Setter Getter
 -(UICollectionView *)collectionV{
     if (_collectionV == nil) {
-        UICollectionViewFlowLayout *flowLayout = [[UICollectionViewFlowLayout alloc]init];
+        UICollectionViewFlowLayout *flowLayout = [[UICollectionViewFlowLayout alloc]init];\
         flowLayout.sectionHeadersPinToVisibleBounds = YES;
         flowLayout.itemSize = CGSizeMake(375/2, 375/2);
         flowLayout.minimumLineSpacing = 1 ;
@@ -108,6 +108,7 @@
         //collection的cell必须经过注册
         [_collectionV registerClass:[CustomCollectionViewCell class] forCellWithReuseIdentifier:@"pool"];
         
+        //
         //collection的分区头 , 分区尾必须经过注册
         [_collectionV registerClass:[UICollectionReusableView class] forSupplementaryViewOfKind:UICollectionElementKindSectionHeader withReuseIdentifier:@"header"];
         [_collectionV registerClass:[UICollectionReusableView class] forSupplementaryViewOfKind:UICollectionElementKindSectionFooter withReuseIdentifier:@"footer"];
